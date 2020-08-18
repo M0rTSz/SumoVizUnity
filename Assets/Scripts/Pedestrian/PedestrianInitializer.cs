@@ -14,7 +14,7 @@ public class PedestrianInitializer : MonoBehaviour {
     private Dictionary<int, Pedestrian> peds = new Dictionary<int, Pedestrian>();
 
     // get pedestrian prefab
-    public GameObject pedPrefab;
+    public List<GameObject> pedPrefabs;
 
     public bool initializePeds(string resFolderPath, SimData simData) {
 
@@ -102,14 +102,8 @@ public class PedestrianInitializer : MonoBehaviour {
         peds.TryGetValue(id, out ped);
         GameObject newPedGameObj;
         if (ped == null) {
-//            newPedGameObj = (GameObject)Instantiate(Resources.Load(pedPrefab.ToString()));
-
-            newPedGameObj = Instantiate(pedPrefab, pedPrefab.transform.position, pedPrefab.transform.rotation);
-//            newPedGameObj.transform.rotation = pedPrefab.transform.rotation;
-            // TODO: set different heights
-            //           float height = 0.8f + Random.value * 0.8f;
-            //           newPedGameObj.transform.localScale = new Vector3(1, height, 1);
-            //           GameObject newPedGameObj = (GameObject)Instantiate(Resources.Load(pedestrianModel.ToString()));
+            var randomPedestrian = pedPrefabs[UnityEngine.Random.Range(0, pedPrefabs.Count)];
+            newPedGameObj = Instantiate(randomPedestrian, randomPedestrian.transform.position, randomPedestrian.transform.rotation);
             ped = newPedGameObj.GetComponent<Pedestrian>();
             ped.init(id, pos);
             peds.Add(id, ped);

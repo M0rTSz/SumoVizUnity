@@ -41,7 +41,6 @@ public class SceneController : MonoBehaviour {
     private SimData simData;
 
     public void Start() {
-
         gl = gameObject.GetComponent<GeometryLoader>();
         pm = gameObject.GetComponent<PedestrianMover>();
 

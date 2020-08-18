@@ -1,0 +1,87 @@
+# Exported from Fuse 2017.1.0
+
+newmtl Top
+illum 4 
+Kd 1.00 1.00 1.00 
+Tf 1.00 1.00 1.00 
+Ni 1.00 
+Ks 1.00 1.00 1.00 
+Ns 512 
+adobe_reflectivity 0.04 
+adobe_bump_strength 0.0 
+d 1.0 
+
+map_d boy_srinivasa_Top_Opacity.png
+map_Kd boy_srinivasa_Top_Diffuse.png
+adobe_map_normal boy_srinivasa_Top_Normal.png
+map_Ks boy_srinivasa_Top_Specular.png
+adobe_map_shininess boy_srinivasa_Top_Gloss.png
+
+newmtl Hair
+illum 4 
+Kd 1.00 1.00 1.00 
+Tf 1.00 1.00 1.00 
+Ni 1.00 
+Ks 1.00 1.00 1.00 
+Ns 512 
+adobe_reflectivity 0.04 
+adobe_bump_strength 0.0 
+d 1.0 
+
+map_d boy_srinivasa_Hair_Opacity.png
+map_Kd boy_srinivasa_Hair_Diffuse.png
+adobe_map_normal boy_srinivasa_Hair_Normal.png
+map_Ks boy_srinivasa_Hair_Specular.png
+adobe_map_shininess boy_srinivasa_Hair_Gloss.png
+
+newmtl Bottom
+illum 4 
+Kd 1.00 1.00 1.00 
+Tf 1.00 1.00 1.00 
+Ni 1.00 
+Ks 1.00 1.00 1.00 
+Ns 512 
+adobe_reflectivity 0.04 
+adobe_bump_strength 0.0 
+d 1.0 
+
+map_d boy_srinivasa_Bottom_Opacity.png
+map_Kd boy_srinivasa_Bottom_Diffuse.png
+adobe_map_normal boy_srinivasa_Bottom_Normal.png
+map_Ks boy_srinivasa_Bottom_Specular.png
+adobe_map_shininess boy_srinivasa_Bottom_Gloss.png
+
+newmtl Shoes
+illum 4 
+Kd 1.00 1.00 1.00 
+Tf 1.00 1.00 1.00 
+Ni 1.00 
+Ks 1.00 1.00 1.00 
+Ns 512 
+adobe_reflectivity 0.04 
+adobe_bump_strength 0.0 
+d 1.0 
+
+map_d boy_srinivasa_Shoes_Opacity.png
+map_Kd boy_srinivasa_Shoes_Diffuse.png
+adobe_map_normal boy_srinivasa_Shoes_Normal.png
+map_Ks boy_srinivasa_Shoes_Specular.png
+adobe_map_shininess boy_srinivasa_Shoes_Gloss.png
+
+newmtl Body
+illum 4 
+Kd 1.00 1.00 1.00 
+Tf 1.00 1.00 1.00 
+Ni 1.00 
+Ks 1.00 1.00 1.00 
+Ns 512 
+adobe_reflectivity 0.04 
+adobe_bump_strength 0.0 
+d 1.0 
+
+map_d boy_srinivasa_Body_Opacity.png
+map_Kd boy_srinivasa_Body_Diffuse.png
+adobe_map_normal boy_srinivasa_Body_Normal.png
+map_Ks boy_srinivasa_Body_Specular.png
+adobe_map_shininess boy_srinivasa_Body_Gloss.png
+

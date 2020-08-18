@@ -1,0 +1,104 @@
+# Exported from Fuse 2017.1.0
+
+newmtl Eyewear
+illum 4 
+Kd 1.00 1.00 1.00 
+Tf 1.00 1.00 1.00 
+Ni 1.00 
+Ks 1.00 1.00 1.00 
+Ns 512 
+adobe_reflectivity 0.04 
+adobe_bump_strength 0.0 
+d 1.0 
+
+map_d girl_eline_Eyewear_Opacity.png
+map_Kd girl_eline_Eyewear_Diffuse.png
+adobe_map_normal girl_eline_Eyewear_Normal.png
+map_Ks girl_eline_Eyewear_Specular.png
+adobe_map_shininess girl_eline_Eyewear_Gloss.png
+
+newmtl Hair
+illum 4 
+Kd 1.00 1.00 1.00 
+Tf 1.00 1.00 1.00 
+Ni 1.00 
+Ks 1.00 1.00 1.00 
+Ns 512 
+adobe_reflectivity 0.04 
+adobe_bump_strength 0.0 
+d 1.0 
+
+map_d girl_eline_Hair_Opacity.png
+map_Kd girl_eline_Hair_Diffuse.png
+adobe_map_normal girl_eline_Hair_Normal.png
+map_Ks girl_eline_Hair_Specular.png
+adobe_map_shininess girl_eline_Hair_Gloss.png
+
+newmtl Top
+illum 4 
+Kd 1.00 1.00 1.00 
+Tf 1.00 1.00 1.00 
+Ni 1.00 
+Ks 1.00 1.00 1.00 
+Ns 512 
+adobe_reflectivity 0.04 
+adobe_bump_strength 0.0 
+d 1.0 
+
+map_d girl_eline_Top_Opacity.png
+map_Kd girl_eline_Top_Diffuse.png
+adobe_map_normal girl_eline_Top_Normal.png
+map_Ks girl_eline_Top_Specular.png
+adobe_map_shininess girl_eline_Top_Gloss.png
+
+newmtl Body
+illum 4 
+Kd 1.00 1.00 1.00 
+Tf 1.00 1.00 1.00 
+Ni 1.00 
+Ks 1.00 1.00 1.00 
+Ns 512 
+adobe_reflectivity 0.04 
+adobe_bump_strength 0.0 
+d 1.0 
+
+map_d girl_eline_Body_Opacity.png
+map_Kd girl_eline_Body_Diffuse.png
+adobe_map_normal girl_eline_Body_Normal.png
+map_Ks girl_eline_Body_Specular.png
+adobe_map_shininess girl_eline_Body_Gloss.png
+
+newmtl Shoes
+illum 4 
+Kd 1.00 1.00 1.00 
+Tf 1.00 1.00 1.00 
+Ni 1.00 
+Ks 1.00 1.00 1.00 
+Ns 512 
+adobe_reflectivity 0.04 
+adobe_bump_strength 0.0 
+d 1.0 
+
+map_d girl_eline_Shoes_Opacity.png
+map_Kd girl_eline_Shoes_Diffuse.png
+adobe_map_normal girl_eline_Shoes_Normal.png
+map_Ks girl_eline_Shoes_Specular.png
+adobe_map_shininess girl_eline_Shoes_Gloss.png
+
+newmtl Bottom
+illum 4 
+Kd 1.00 1.00 1.00 
+Tf 1.00 1.00 1.00 
+Ni 1.00 
+Ks 1.00 1.00 1.00 
+Ns 512 
+adobe_reflectivity 0.04 
+adobe_bump_strength 0.0 
+d 1.0 
+
+map_d girl_eline_Bottom_Opacity.png
+map_Kd girl_eline_Bottom_Diffuse.png
+adobe_map_normal girl_eline_Bottom_Normal.png
+map_Ks girl_eline_Bottom_Specular.png
+adobe_map_shininess girl_eline_Bottom_Gloss.png
+
