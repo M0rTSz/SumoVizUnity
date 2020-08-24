@@ -28,7 +28,7 @@ public class NormalScreenshots : MonoBehaviour {
 
     void Start() {
         pm = FindObjectOfType<PedestrianMover>();
-        Time.captureFramerate = fps;
+        //Time.captureFramerate = fps;
         Application.runInBackground = true;
         record.onClick.AddListener(delegate () { renderScreen(); });
         takeScreenshot.onClick.AddListener(delegate () { saveScreenshot(); });

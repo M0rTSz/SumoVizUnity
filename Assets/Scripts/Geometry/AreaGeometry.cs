@@ -22,7 +22,8 @@ public class AreaGeometry : Geometry  {
 
         // set renderer
         var renderer = planeObject.GetComponent<Renderer>();
-		renderer.sharedMaterial = new Material (Shader.Find ("UI/Lit/Transparent"));
+		renderer.sharedMaterial = new Material (Shader.Find ("Standard"));
+		//renderer.sharedMaterial = new Material (Shader.Find ("UI/Lit/Transparent"));
 		renderer.sharedMaterial.color = color;
         planeObject.transform.SetParent(parent.transform);
 

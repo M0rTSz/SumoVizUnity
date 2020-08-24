@@ -122,7 +122,6 @@ public class Pedestrian : MonoBehaviour {
 			Vector3 relativePos = target - start;
 			speed = relativePos.magnitude;
 			animator.SetFloat("walkingSpeed", speed / timeStepLength);
-            Debug.Log(speed / timeStepLength);
             // TODO: not needed for cylinders
             if (start != targetForLook)
               transform.rotation = Quaternion.LookRotation (targetForLook - start);

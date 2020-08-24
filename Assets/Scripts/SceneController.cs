@@ -135,7 +135,7 @@ public class SceneController : MonoBehaviour {
             camera.parent = world.transform;
             camera.rotation = Quaternion.Euler(0, offset, 0);
             GameObject.Find("CameraPivot").transform.position = camera.position;
-            GameObject.Find("LightSource").transform.position = camera.position;
+            //GameObject.Find("LightSource").transform.position = camera.position;
 
 
             // initialize floor toggler
